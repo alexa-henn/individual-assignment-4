@@ -1,0 +1,41 @@
+* {
+    background-color: #E8E8DD;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 60px auto 40px;
+    grid-template-areas: 
+    "head head head"
+    "nav article article"
+    "foot foot foot";
+}
+
+header {
+    grid-area: head;
+}
+
+nav {
+    grid-area: nav;
+    border: 5px solid #2A2A5C;
+    margin-left: 10px;
+}
+
+article {
+    grid-area: article;
+    padding: 20px;
+}
+
+
+footer {
+    grid-area: foot;
+}
+
+a:hover {
+    background-color: #9B7EAC;
+}
+
+#home_photo {
+    filter: grayscale(100%);
+}
