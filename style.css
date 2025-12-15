@@ -70,3 +70,16 @@ img {
 
 }
 
+#songs {
+    font-style:italic;
+}
+
+li a {
+   text-decoration: none;
+}
+
+.subheading {
+    font-style: italic;
+    font-style: bold;
+    color: #9B7EAC
+}
