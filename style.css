@@ -30,6 +30,9 @@ article {
 
 footer {
     grid-area: foot;
+    position: relative;
+    text-align: center;
+    
 }
 
 a:hover {
@@ -38,4 +41,17 @@ a:hover {
 
 #home_photo {
     filter: grayscale(100%);
+}
+
+h1 {
+    text-align: center;
+    color: #2A2A5C
+}
+
+img {
+    border: solid #9B7EAC 5px;
+}
+
+th, td {
+    padding: 10px
 }
