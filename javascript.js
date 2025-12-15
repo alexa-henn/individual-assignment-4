@@ -5,4 +5,3 @@ function contactForm()
     let output = document.getElementById("thanks");
     output.innerHTML = "Thank you for your message, " + nameInput + "!";
 }
-
