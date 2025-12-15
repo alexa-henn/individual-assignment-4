@@ -30,9 +30,8 @@ article {
 
 footer {
     grid-area: foot;
-    position: relative;
-    text-align: center;
-    
+    position: fixed;
+    bottom: 0;
 }
 
 a:hover {
